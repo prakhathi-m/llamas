@@ -3,7 +3,6 @@
   background: url('./assets/bg.jpg') no-repeat;
   background-size: cover;
   min-height: 100vh;
-  weight: 100%;
   text-align: center;
   min-height: 100vh;
   font-size: 14px;
@@ -68,6 +67,8 @@
   display: none;
   padding: 20px;
   border: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
 }
 
 .tabcontent ul {

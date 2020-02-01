@@ -38,7 +38,7 @@ class App extends React.Component {
             <button className={this.state.tab === 'trivia' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'trivia'})}>Trivia</button>
             </nav>
             <article id="origin" className={this.state.tab === 'origin' ? 'tabcontent active' : 'tabcontent'}>
-              <img src={require("./assets/Llama-2.jpg")} alt="llama" width={500}/>
+              <img src={require("./assets/Llama-2.jpg")} alt="llama" width={500} height='100%'/>
               <ul style={{'listStyleType': 'none', 'textAlign': 'left'}}>
               <li><b>Common Name: </b>Llama</li>
               <li><b>Scientific Name: </b>Lama glama</li>
@@ -61,10 +61,10 @@ class App extends React.Component {
               <li>Mama llamas usually only have one baby at a time and llama twins are incredibly rare. Pregnancy lasts for about 350 days, nearly a full year. Baby llama - Cria, weighs 20 to 35 pounds at birth</li>
               <li>Llamas can reach speeds up to 35mph.</li>
               </ul>
-              <img src={require("./assets/llama.jpg")} alt="llama" width={500}/>
+              <img src={require("./assets/llamas.jpg")} alt="llama" width={500} height='100%'/>
             </article>
             <article id="facts" className={this.state.tab === 'facts' ? 'tabcontent active' : 'tabcontent'}>
-            <img src={require("./assets/Bullet.jpg")} alt="llama" width={500}/>
+            <img src={require("./assets/Bullet.jpg")} alt="llama" width={500} height='100%'/>
             <ul>
             <li>Llamas know their own limits. If you try to overload a llama with too much weight, the llama is likely to lie down or simply refuse to move.</li>
             <li>Llamas don't bite. They spit when they're agitated, but that's mostly at each other. Llamas also kick and neck wrestle each other when agitated.</li>
@@ -97,9 +97,9 @@ class App extends React.Component {
                 <span className="next" onClick={() => this.moveSlide(this.state.slide+1)}>&#10095;</span>
                 <br />
                 <div style={{"textAlign":"center"}}>
-                  <span className="dot" onClick={() => this.moveSlide(1)}></span>
-                  <span className="dot" onClick={() => this.moveSlide(2)}></span>
-                  <span className="dot" onClick={() => this.moveSlide(3)}></span>
+                  <span className={this.state.slide === 1 ? "dot active" : "dot"} onClick={() => this.moveSlide(1)}></span>
+                  <span className={this.state.slide === 2 ? "dot active" : "dot"} onClick={() => this.moveSlide(2)}></span>
+                  <span className={this.state.slide === 3 ? "dot active" : "dot"} onClick={() => this.moveSlide(3)}></span>
                 </div>
               </div>
 
