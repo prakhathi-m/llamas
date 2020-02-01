@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/llamas/static/css/main.d1b05096.chunk.css",
-    "main.js": "/llamas/static/js/main.d76482d5.chunk.js",
-    "main.js.map": "/llamas/static/js/main.d76482d5.chunk.js.map",
+    "main.css": "/llamas/static/css/main.21876bbb.chunk.css",
+    "main.js": "/llamas/static/js/main.b1a7dc4b.chunk.js",
+    "main.js.map": "/llamas/static/js/main.b1a7dc4b.chunk.js.map",
     "runtime-main.js": "/llamas/static/js/runtime-main.8dad553e.js",
     "runtime-main.js.map": "/llamas/static/js/runtime-main.8dad553e.js.map",
-    "static/js/2.eda3296b.chunk.js": "/llamas/static/js/2.eda3296b.chunk.js",
-    "static/js/2.eda3296b.chunk.js.map": "/llamas/static/js/2.eda3296b.chunk.js.map",
+    "static/js/2.6ce779c5.chunk.js": "/llamas/static/js/2.6ce779c5.chunk.js",
+    "static/js/2.6ce779c5.chunk.js.map": "/llamas/static/js/2.6ce779c5.chunk.js.map",
     "index.html": "/llamas/index.html",
-    "precache-manifest.3cf35e6e6bc627f5a44d53f05b6aeb50.js": "/llamas/precache-manifest.3cf35e6e6bc627f5a44d53f05b6aeb50.js",
+    "precache-manifest.5b2a060ef809446b7a130a310664c3e3.js": "/llamas/precache-manifest.5b2a060ef809446b7a130a310664c3e3.js",
     "service-worker.js": "/llamas/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/llamas/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.eda3296b.chunk.js.LICENSE.txt": "/llamas/static/js/2.eda3296b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/llamas/static/media/logo.5d5d9eef.svg"
+    "static/css/main.21876bbb.chunk.css.map": "/llamas/static/css/main.21876bbb.chunk.css.map",
+    "static/js/2.6ce779c5.chunk.js.LICENSE.txt": "/llamas/static/js/2.6ce779c5.chunk.js.LICENSE.txt",
+    "static/media/Bullet.jpg": "/llamas/static/media/Bullet.f1849f6d.jpg",
+    "static/media/Llama-2.jpg": "/llamas/static/media/Llama-2.64ddfb6a.jpg",
+    "static/media/App.css": "/llamas/static/media/bg.825c91cf.jpg",
+    "static/media/llam.jpg": "/llamas/static/media/llam.f99a2231.jpg",
+    "static/media/toy.jfif": "/llamas/static/media/toy.163970e6.jfif",
+    "static/media/wed.jpg": "/llamas/static/media/wed.11159d66.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8dad553e.js",
-    "static/js/2.eda3296b.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d76482d5.chunk.js"
+    "static/js/2.6ce779c5.chunk.js",
+    "static/css/main.21876bbb.chunk.css",
+    "static/js/main.b1a7dc4b.chunk.js"
   ]
 }
