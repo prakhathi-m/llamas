@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import { FaHome } from 'react-icons/fa';
+import Author from './Author';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showContent: false,
+      showllamaContent: false,
       tab: 'origin',
       slide: 1,
+      aboutMe: false,
     };
   }
 
@@ -18,20 +20,23 @@ class App extends React.Component {
     else if(slidenum < 1) { slide = 3 }
     this.setState({slide});
   }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-
-        </header>
-        <main>
-          <section className={this.state.showContent ? "intro-wrapper hide" : "intro-wrapper"}>
+      <div className={this.state.showllamaContent || this.state.aboutMe ? "hide" : ""}>
+          <header className="App-header">
+            <button className="primary-button small" onClick={() => this.setState({aboutMe: true})}>About Me</button>
+          </header>
+          <section className="intro-wrapper">
             <div>Aren't Llamas so cute that we all want to keep it as a pet. Lets learn more about llamas.</div>
-            <button className="primary-button" onClick={() => this.setState({showContent: true})}>Get Started</button>
+            <button className="primary-button" onClick={() => this.setState({showllamaContent: true})}>Get Started</button>
           </section>
-          <section className={this.state.showContent ? "" : "hide"}>
+        </div>
+        <main>
+          <section className={this.state.showllamaContent ? "" : "hide"}>
             <nav className="navbar">
-            <button className="tab" onClick={() => this.setState({showContent: false})}><FaHome/></button>
+            <button className="tab" onClick={() => this.setState({showllamaContent: false})}><FaHome size={20}/></button>
             <button className={this.state.tab === 'origin' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'origin'})}>Origin</button>
             <button className={this.state.tab === 'char' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'char'})}>Characteristics</button>
             <button className={this.state.tab === 'facts' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'facts'})}>Facts</button>
@@ -52,6 +57,7 @@ class App extends React.Component {
             </article>
 
             <article id="char" className={this.state.tab === 'char' ? 'tabcontent active' : 'tabcontent'}>
+              <img src={require("./assets/llamas.jpg")} alt="llama" width={500} height='100%'/>
               <ul>
               <li>Llamas are smart and easy to train.</li>
               <li>Llamas are hardy and well suited to harsh environments. They are quite sure-footed, easily navigating rocky terrain at high altitudes.</li>
@@ -61,7 +67,6 @@ class App extends React.Component {
               <li>Mama llamas usually only have one baby at a time and llama twins are incredibly rare. Pregnancy lasts for about 350 days, nearly a full year. Baby llama - Cria, weighs 20 to 35 pounds at birth</li>
               <li>Llamas can reach speeds up to 35mph.</li>
               </ul>
-              <img src={require("./assets/llamas.jpg")} alt="llama" width={500} height='100%'/>
             </article>
             <article id="facts" className={this.state.tab === 'facts' ? 'tabcontent active' : 'tabcontent'}>
             <img src={require("./assets/Bullet.jpg")} alt="llama" width={500} height='100%'/>
@@ -102,9 +107,9 @@ class App extends React.Component {
                   <span className={this.state.slide === 3 ? "dot active" : "dot"} onClick={() => this.moveSlide(3)}></span>
                 </div>
               </div>
-
             </article>
           </section>
+          {this.state.aboutMe && <Author goBack={() => this.setState({aboutMe: false})}/>}
         </main>
       </div>
     );
