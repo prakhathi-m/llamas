@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/llamas/static/css/main.c720f1e6.chunk.css",
-    "main.js": "/llamas/static/js/main.29fdaa43.chunk.js",
-    "main.js.map": "/llamas/static/js/main.29fdaa43.chunk.js.map",
+    "main.css": "/llamas/static/css/main.47eb4034.chunk.css",
+    "main.js": "/llamas/static/js/main.12078c55.chunk.js",
+    "main.js.map": "/llamas/static/js/main.12078c55.chunk.js.map",
     "runtime-main.js": "/llamas/static/js/runtime-main.8dad553e.js",
     "runtime-main.js.map": "/llamas/static/js/runtime-main.8dad553e.js.map",
     "static/js/2.6ce779c5.chunk.js": "/llamas/static/js/2.6ce779c5.chunk.js",
     "static/js/2.6ce779c5.chunk.js.map": "/llamas/static/js/2.6ce779c5.chunk.js.map",
     "index.html": "/llamas/index.html",
-    "precache-manifest.48991ae5111a72006196488c0c169625.js": "/llamas/precache-manifest.48991ae5111a72006196488c0c169625.js",
+    "precache-manifest.678047072acc9c2c400025dd6800de73.js": "/llamas/precache-manifest.678047072acc9c2c400025dd6800de73.js",
     "service-worker.js": "/llamas/service-worker.js",
-    "static/css/main.c720f1e6.chunk.css.map": "/llamas/static/css/main.c720f1e6.chunk.css.map",
+    "static/css/main.47eb4034.chunk.css.map": "/llamas/static/css/main.47eb4034.chunk.css.map",
     "static/js/2.6ce779c5.chunk.js.LICENSE.txt": "/llamas/static/js/2.6ce779c5.chunk.js.LICENSE.txt",
     "static/media/Bullet.jpg": "/llamas/static/media/Bullet.f1849f6d.jpg",
     "static/media/Llama-2.jpg": "/llamas/static/media/Llama-2.64ddfb6a.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.8dad553e.js",
     "static/js/2.6ce779c5.chunk.js",
-    "static/css/main.c720f1e6.chunk.css",
-    "static/js/main.29fdaa43.chunk.js"
+    "static/css/main.47eb4034.chunk.css",
+    "static/js/main.12078c55.chunk.js"
   ]
 }
