@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d578eb2fa604dee8c719c066ea7d8f1e",
+    "revision": "ab1a2e514cdd3f25a9021a86ae8ac29e",
     "url": "/llamas/index.html"
   },
   {
-    "revision": "c39efe238812ed92d6b3",
-    "url": "/llamas/static/css/main.b9a0681e.chunk.css"
+    "revision": "e92749ec8f935c53eebd",
+    "url": "/llamas/static/css/main.c763f92a.chunk.css"
   },
   {
     "revision": "0635634d0252db72dd9a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/llamas/static/js/2.5b83bc46.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c39efe238812ed92d6b3",
+    "revision": "e92749ec8f935c53eebd",
     "url": "/llamas/static/js/main.a9e37ffb.chunk.js"
   },
   {
