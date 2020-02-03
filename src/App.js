@@ -36,7 +36,7 @@ class App extends React.Component {
         <main>
           <section className={this.state.showllamaContent ? "" : "hide"}>
             <nav className="navbar">
-            <button className="tab" onClick={() => this.setState({showllamaContent: false})}><FaHome size={20}/></button>
+            <button className="tab" onClick={() => this.setState({showllamaContent: false, tab: 'origin'})}><FaHome size={20}/></button>
             <button className={this.state.tab === 'origin' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'origin'})}>Origin</button>
             <button className={this.state.tab === 'char' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'char'})}>Characteristics</button>
             <button className={this.state.tab === 'facts' ? 'tab active' : 'tab'} onClick={() => this.setState({tab: 'facts'})}>Facts</button>
