@@ -2,7 +2,7 @@
   "name": "llama-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://prakhathi-m.github.io/llamas",
+  "homepage": "http://prakhathi-m.github.io/aboutme",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
