@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.64dd106a.chunk.css",
-    "main.js": "/profile/static/js/main.55de7f74.chunk.js",
-    "main.js.map": "/profile/static/js/main.55de7f74.chunk.js.map",
-    "runtime-main.js": "/profile/static/js/runtime-main.20c93dc6.js",
-    "runtime-main.js.map": "/profile/static/js/runtime-main.20c93dc6.js.map",
-    "static/js/2.5b83bc46.chunk.js": "/profile/static/js/2.5b83bc46.chunk.js",
-    "static/js/2.5b83bc46.chunk.js.map": "/profile/static/js/2.5b83bc46.chunk.js.map",
-    "index.html": "/profile/index.html",
-    "precache-manifest.7d67b7430d4d16439af5854ea915d0e2.js": "/profile/precache-manifest.7d67b7430d4d16439af5854ea915d0e2.js",
-    "service-worker.js": "/profile/service-worker.js",
-    "static/css/main.64dd106a.chunk.css.map": "/profile/static/css/main.64dd106a.chunk.css.map",
-    "static/js/2.5b83bc46.chunk.js.LICENSE.txt": "/profile/static/js/2.5b83bc46.chunk.js.LICENSE.txt",
-    "static/media/Bullet.jpg": "/profile/static/media/Bullet.f1849f6d.jpg",
-    "static/media/Llama-2.jpg": "/profile/static/media/Llama-2.64ddfb6a.jpg",
-    "static/media/App.css": "/profile/static/media/bg.825c91cf.jpg",
-    "static/media/llam.jpg": "/profile/static/media/llam.f99a2231.jpg",
-    "static/media/llamas.jpg": "/profile/static/media/llamas.8962c808.jpg",
-    "static/media/toy.jfif": "/profile/static/media/toy.163970e6.jfif",
-    "static/media/wed.jpg": "/profile/static/media/wed.11159d66.jpg"
+    "main.css": "/aboutme/static/css/main.a707d6d3.chunk.css",
+    "main.js": "/aboutme/static/js/main.ab31fe7a.chunk.js",
+    "main.js.map": "/aboutme/static/js/main.ab31fe7a.chunk.js.map",
+    "runtime-main.js": "/aboutme/static/js/runtime-main.1acaead2.js",
+    "runtime-main.js.map": "/aboutme/static/js/runtime-main.1acaead2.js.map",
+    "static/js/2.5b83bc46.chunk.js": "/aboutme/static/js/2.5b83bc46.chunk.js",
+    "static/js/2.5b83bc46.chunk.js.map": "/aboutme/static/js/2.5b83bc46.chunk.js.map",
+    "index.html": "/aboutme/index.html",
+    "precache-manifest.01298640b0fb222b7046709a23f2dd3d.js": "/aboutme/precache-manifest.01298640b0fb222b7046709a23f2dd3d.js",
+    "service-worker.js": "/aboutme/service-worker.js",
+    "static/css/main.a707d6d3.chunk.css.map": "/aboutme/static/css/main.a707d6d3.chunk.css.map",
+    "static/js/2.5b83bc46.chunk.js.LICENSE.txt": "/aboutme/static/js/2.5b83bc46.chunk.js.LICENSE.txt",
+    "static/media/Bullet.jpg": "/aboutme/static/media/Bullet.f1849f6d.jpg",
+    "static/media/Llama-2.jpg": "/aboutme/static/media/Llama-2.64ddfb6a.jpg",
+    "static/media/App.css": "/aboutme/static/media/bg.825c91cf.jpg",
+    "static/media/llam.jpg": "/aboutme/static/media/llam.f99a2231.jpg",
+    "static/media/llamas.jpg": "/aboutme/static/media/llamas.8962c808.jpg",
+    "static/media/toy.jfif": "/aboutme/static/media/toy.163970e6.jfif",
+    "static/media/wed.jpg": "/aboutme/static/media/wed.11159d66.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20c93dc6.js",
+    "static/js/runtime-main.1acaead2.js",
     "static/js/2.5b83bc46.chunk.js",
-    "static/css/main.64dd106a.chunk.css",
-    "static/js/main.55de7f74.chunk.js"
+    "static/css/main.a707d6d3.chunk.css",
+    "static/js/main.ab31fe7a.chunk.js"
   ]
 }
